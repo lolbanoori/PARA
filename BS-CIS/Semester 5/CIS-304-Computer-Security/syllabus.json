@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "courseCode": "CIS-304",
+    "courseName": "Computer Security",
+    "department": "BS-CIS",
+    "semester": 5,
+    "lastUpdated": "2026-01-03",
+    "maintainers": ["lolbanoori"]
+  },
+  "resources": [
+    {
+      "id": "cis304_note_acronyms",
+      "filename": "acronyms-list.pdf",
+      "folder": "notes",
+      "type": "cheatsheet",
+      "title": "Acronyms List",
+      "description": "Essential acronyms for memorization.",
+      "tags": ["cheatsheet", "memorization", "supplementary"],
+      "exclusions": []
+    },
+    {
+      "id": "cis304_lec_02",
+      "filename": "chap02.pdf",
+      "folder": "lectures",
+      "type": "slides",
+      "title": "Chapter 2: Cryptographic Tools",
+      "description": "Overview of cryptographic tools and techniques.",
+      "tags": ["core", "slides"],
+      "exclusions": []
+    },
+    {
+      "id": "cis304_lec_04",
+      "filename": "chap04.pdf",
+      "folder": "lectures",
+      "type": "slides",
+      "title": "Chapter 4: Access Control",
+      "description": "Authentication principles and access matrices.",
+      "tags": ["core", "slides"],
+      "exclusions": []
+    },
+    {
+      "id": "cis304_lec_05",
+      "filename": "chap05.pdf",
+      "folder": "lectures",
+      "type": "slides",
+      "title": "Chapter 5: Database & Data Centre Security",
+      "description": "SQL injection and database inference protection.",
+      "tags": ["core", "slides"],
+      "exclusions": []
+    },
+    {
+      "id": "cis304_lec_06",
+      "filename": "chap06.pdf",
+      "folder": "lectures",
+      "type": "slides",
+      "title": "Chapter 6: Malicious Software",
+      "description": "Viruses, worms, and malware analysis.",
+      "tags": ["core", "slides"],
+      "exclusions": []
+    },
+    {
+      "id": "cis304_lec_07",
+      "filename": "chap07.pdf",
+      "folder": "lectures",
+      "type": "slides",
+      "title": "Chapter 7: Denial of Service",
+      "description": "DoS attacks and flooding defenses.",
+      "tags": ["core", "slides"],
+      "exclusions": []
+    },
+    {
+      "id": "cis304_lec_08",
+      "filename": "chap08.pdf",
+      "folder": "lectures",
+      "type": "slides",
+      "title": "Chapter 8: Intrusion Detection",
+      "description": "IDS types, honeypots, and snort rules.",
+      "tags": ["core", "slides"],
+      "exclusions": []
+    },
+    {
+      "id": "cis304_lec_09",
+      "filename": "chap09.pdf",
+      "folder": "lectures",
+      "type": "slides",
+      "title": "Chapter 9: Firewalls",
+      "description": "Packet filtering, stateful inspection, and IPS.",
+      "tags": ["core", "slides"],
+      "exclusions": []
+    }
+  ]
+}
