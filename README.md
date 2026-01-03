@@ -14,7 +14,7 @@ The repository follows a strict hierarchy to ensure the search engine can parse 
 ```text
 ├── Semester 1/
 │   ├── [Course Name]/
-│   │   ├── syllabus.json      # Metadata (exclusions, topics)
+│   │   ├── syllabus.json      # Metadata (see docs/SYLLABUS-METADATA.md)
 │   │   ├── lectures/          # PDFs, PPTs
 │   │   ├── diagrams/          # Images, Whiteboard snaps
 │   │   └── code/              # Source code examples

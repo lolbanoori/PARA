@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "courseCode": "DEPT-XXX",
+    "courseName": "Full Course Name",
+    "department": "EXAMPLE: BS-CIS",
+    "semester": 0,
+    "lastUpdated": "YYYY-MM-DD",
+    "maintainers": ["github-username"]
+  },
+  "resources": [
+    {
+      "_comment": "EXAMPLE: A Lecture Slide",
+      "id": "deptxxx_lec_01",
+      "filename": "lec01-topic-name.pdf",
+      "folder": "lectures",
+      "type": "slides",
+      "title": "Lecture 01: Title Here",
+      "description": "Brief summary of topics covered.",
+      "tags": ["core", "slides"],
+      "exclusions": []
+    },
+    {
+      "_comment": "EXAMPLE: A Code File",
+      "id": "deptxxx_code_lab01",
+      "filename": "lab01-solver.py",
+      "folder": "code",
+      "type": "code",
+      "title": "Lab 01: Linear Solver",
+      "description": "Python script for Gaussian elimination.",
+      "tags": ["practical", "code"],
+      "exclusions": []
+    },
+    {
+      "_comment": "EXAMPLE: A Cheat Sheet",
+      "id": "deptxxx_note_formulas",
+      "filename": "midterm-formula-sheet.pdf",
+      "folder": "notes",
+      "type": "cheatsheet",
+      "title": "Midterm Formula Sheet",
+      "description": "Approved list of integrals and derivatives.",
+      "tags": ["midterm-prep", "cheatsheet", "handwritten"],
+      "exclusions": []
+    },
+    {
+      "_comment": "EXAMPLE: A Lecture with Syllabus Exclusions",
+      "id": "deptxxx_lec_05",
+      "filename": "chap05-advanced-crypto.pdf",
+      "folder": "lectures",
+      "type": "slides",
+      "title": "Chapter 5: Advanced Cryptography",
+      "description": "Deep dive into AES and RSA encryption methods.",
+      "tags": ["core", "slides"],
+      "exclusions": [
+        {
+          "scope": "pages",
+          "value": "45-52",
+          "reason": "Topic 'Elliptic Curve Cryptography' removed from Spring 2026 syllabus."
+        },
+        {
+          "scope": "slides",
+          "value": "12, 14, 15",
+          "reason": "Professor skipped these specific diagrams in class."
+        },
+        {
+          "scope": "topic",
+          "value": "MD5 Hashing",
+          "reason": "Algorithm deprecated; not included in Final Exam."
+        }
+      ]
+    }
+  ]
+}
