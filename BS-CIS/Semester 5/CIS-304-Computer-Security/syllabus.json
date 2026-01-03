@@ -5,7 +5,9 @@
     "department": "BS-CIS",
     "semester": 5,
     "lastUpdated": "2026-01-03",
-    "maintainers": ["lolbanoori"]
+    "maintainers": [
+      "lolbanoori"
+    ]
   },
   "resources": [
     {
@@ -15,7 +17,11 @@
       "type": "cheatsheet",
       "title": "Acronyms List",
       "description": "Essential acronyms for memorization.",
-      "tags": ["cheatsheet", "memorization", "supplementary"],
+      "tags": [
+        "cheatsheet",
+        "memorization",
+        "supplementary"
+      ],
       "exclusions": []
     },
     {
@@ -25,8 +31,17 @@
       "type": "slides",
       "title": "Chapter 2: Cryptographic Tools",
       "description": "Overview of cryptographic tools and techniques.",
-      "tags": ["core", "slides"],
-      "exclusions": []
+      "tags": [
+        "core",
+        "slides"
+      ],
+      "exclusions": [
+        {
+          "scope": "pages",
+          "value": "10-15",
+          "reason": "TEST: Topic 'Historical Ciphers' removed from Spring 2026 syllabus."
+        }
+      ]
     },
     {
       "id": "cis304_lec_04",
@@ -35,7 +50,10 @@
       "type": "slides",
       "title": "Chapter 4: Access Control",
       "description": "Authentication principles and access matrices.",
-      "tags": ["core", "slides"],
+      "tags": [
+        "core",
+        "slides"
+      ],
       "exclusions": []
     },
     {
@@ -45,7 +63,10 @@
       "type": "slides",
       "title": "Chapter 5: Database & Data Centre Security",
       "description": "SQL injection and database inference protection.",
-      "tags": ["core", "slides"],
+      "tags": [
+        "core",
+        "slides"
+      ],
       "exclusions": []
     },
     {
@@ -55,7 +76,10 @@
       "type": "slides",
       "title": "Chapter 6: Malicious Software",
       "description": "Viruses, worms, and malware analysis.",
-      "tags": ["core", "slides"],
+      "tags": [
+        "core",
+        "slides"
+      ],
       "exclusions": []
     },
     {
@@ -65,7 +89,10 @@
       "type": "slides",
       "title": "Chapter 7: Denial of Service",
       "description": "DoS attacks and flooding defenses.",
-      "tags": ["core", "slides"],
+      "tags": [
+        "core",
+        "slides"
+      ],
       "exclusions": []
     },
     {
@@ -75,7 +102,10 @@
       "type": "slides",
       "title": "Chapter 8: Intrusion Detection",
       "description": "IDS types, honeypots, and snort rules.",
-      "tags": ["core", "slides"],
+      "tags": [
+        "core",
+        "slides"
+      ],
       "exclusions": []
     },
     {
@@ -85,7 +115,10 @@
       "type": "slides",
       "title": "Chapter 9: Firewalls",
       "description": "Packet filtering, stateful inspection, and IPS.",
-      "tags": ["core", "slides"],
+      "tags": [
+        "core",
+        "slides"
+      ],
       "exclusions": []
     }
   ]
