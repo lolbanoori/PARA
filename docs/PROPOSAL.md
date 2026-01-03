@@ -49,7 +49,7 @@ Maintenance is critical for longevity. We will adopt industry-standard DevOps pr
 3. **Scalability:** The pilot phase targets the BS-CIS department. The directory structure is designed to scale horizontally to other departments (BS-EE, BS-ME) without architectural changes.
 
 ## 5. Roadmap
-* **Phase 1 (Foundation):** Repository initialization, directory scaffolding for Semester 1 & 2, and defining the `syllabus.json` metadata schema.
+* **Phase 1 (Foundation):** Repository initialization, directory scaffolding for Semester 1 & 2, and defining the `syllabus.json` metadata schema (see [SYLLABUS-METADATA.md](SYLLABUS-METADATA.md)).
 * **Phase 2 (Content Population):** Mobilizing initial contributors to populate the `CIS/` directory.
 * **Phase 3 (Platform Launch):** Development and deployment of the Web Interface (Search Engine).
 

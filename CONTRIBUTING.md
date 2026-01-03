@@ -41,4 +41,5 @@ We write commit messages for machines, not just humans. Follow the **Conventiona
 ## 4. File Standards
 * **PDFs:** Must be clear and readable.
 * **Code:** Must be commented.
-* **Exclusions:** When marking a topic as "excluded" in `syllabus.json`, you must provide a reason (e.g., "Removed in Spring 2026").
+* **Exclusions:** When marking a topic as "excluded" in `syllabus.json`, you must provide a reason (e.g., "Removed in Spring 2026"). 
+> *See [Syllabus Metadata Standard](docs/SYLLABUS-METADATA.md) for full details.*
